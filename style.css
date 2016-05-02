@@ -4,23 +4,90 @@ body{
   color: white;
 }
 
-div.cool{
+#nav{
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  width: 70px;
+  height: 100px;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+div{
   border-style: solid;
   border-color: white;
   border-width: thin;
   position:fixed;
+}
+
+div.cool{
   top: 50%;
   left: 50%;
   width:20em;
   height:10em;
   margin-top: -5em; /*set to a negative number 1/2 of your height*/
   margin-left: -10em; /*set to a negative number 1/2 of your width*/
-
+  padding: 0px 0px 0px 0px;
 }
+
+div.mid_textbox{
+  top: 50%;
+  left: 50%;
+  width:20em;
+  height:10em;
+  margin-top: -5em; /*set to a negative number 1/2 of your height*/
+  margin-left: -10em; /*set to a negative number 1/2 of your width*/
+  padding-left: 10px;
+}
+
 .cool:hover {
     background: url(https://secure.static.tumblr.com/fa39e63b00ee26c1121c13950d3641ac/otxllrl/X0tninj3l/tumblr_static_tumblr_static_4zsnd9d8oloo8osows8ow8w0g_640.gif);
 }
+
+
+
 p{
+  font-size: 12px;
+  font-family: "Helvetica";
+  position: absolute;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #86CFF6;
+}
+
+/* selected link */
+a:active {
+    color: #C5E9FC;
+}
+
+span.box_text{
+  padding-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p.emoji{
+  font-style: normal;
+}
+
+
+#cooltext{
+  font-size: 17px;
   font-style: italic;
   font-family: "Comic Sans MS";
   position: absolute;
